@@ -104,11 +104,11 @@
                 
     
     
-    <db.username>postgres</db.username>
+    <db.username>root</db.username>
                 
     
     
-    <db.password>postgres</db.password>
+    <db.password>root</db.password>
                 
     
     
