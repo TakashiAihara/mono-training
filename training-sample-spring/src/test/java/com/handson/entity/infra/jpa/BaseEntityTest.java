@@ -3,14 +3,14 @@ package com.handson.entity.infra.jpa;
 import javax.persistence.EntityManager;
 import javax.persistence.LockModeType;
 
+import com.handson.domain.person.PersonEntity;
+
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringRunner;
-
-import com.handson.domain.persion.PersonEntity;
 
 @RunWith(SpringRunner.class)
 @ContextConfiguration

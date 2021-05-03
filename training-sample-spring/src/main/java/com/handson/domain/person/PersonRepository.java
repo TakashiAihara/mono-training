@@ -1,4 +1,4 @@
-package com.handson.domain.persion;
+package com.handson.domain.person;
 
 import java.util.List;
 
