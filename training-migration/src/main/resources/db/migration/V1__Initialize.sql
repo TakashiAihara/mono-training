@@ -1,5 +1,5 @@
 CREATE TABLE person (
-    id INT NOT NULL,
+    id serial NOT NULL,
     name VARCHAR(100) NOT NULL,
     ${commonColumns},
     CONSTRAINT person_pk PRIMARY KEY (id)
